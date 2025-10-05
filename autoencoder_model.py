@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from utils.autoencoder_pipelone import AnomalyDetector, preprocess_light_curves
+from autoencoder_pipelone import AnomalyDetector, preprocess_light_curves
 from keras.models import load_model
 import numpy as np
 import matplotlib.pyplot as plt
