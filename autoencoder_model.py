@@ -16,7 +16,7 @@ def load_autoencoder():
     """
     Carga el modelo y todos los transformadores guardados con joblib.
     """
-    MODEL_PATH = r"models\autoencoder_exo_planet.keras"
+    MODEL_PATH = r"autoencoder_exo_planet.keras"
     autoencoder = load_model(
         MODEL_PATH, 
         custom_objects={'AnomalyDetector': AnomalyDetector},

@@ -12,8 +12,8 @@ def load_model_components():
     """
     Carga el modelo y todos los transformadores guardados con joblib.
     """
-    scaler = joblib.load(r'models\scaler_exoplanet.joblib')
-    inputer = joblib.load(r'models\nan_imputer.joblib')
+    scaler = joblib.load(r'scaler_exoplanet.joblib')
+    inputer = joblib.load(r'nan_imputer.joblib')
 
     return scaler, inputer
 
@@ -22,7 +22,7 @@ def load_model_xgb():
     """
     Carga el modelo y todos los transformadores guardados con joblib.
     """
-    model = joblib.load(r'models\xgb_exoplanet.joblib')
+    model = joblib.load(r'xgb_exoplanet.joblib')
 
     return model
 
