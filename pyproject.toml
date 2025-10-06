@@ -1,0 +1,19 @@
+[project]
+name = "exo"
+version = "0.1.0"
+description = "Exo Planet Detection using AI"
+authors = [
+    { name = "Andres Moreno"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "keras>=3.11.3",
+    "matplotlib>=3.10.6",
+    "seaborn>=0.13.2",
+    "shap>=0.48.0",
+    "streamlit>=1.50.0",
+    "tensorflow>=2.20.0",
+    "xgboost>=3.0.5",
+    "lightkurve>=2.5.1",
+]
